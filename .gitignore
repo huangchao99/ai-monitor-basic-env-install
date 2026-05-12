@@ -2,3 +2,4 @@
 basic-env-install-package/
 # 忽略压缩包
 *.tar.gz
+.codex/

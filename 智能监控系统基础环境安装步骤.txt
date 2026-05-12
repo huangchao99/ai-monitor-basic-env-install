@@ -1,0 +1,27 @@
+智能监控基础环境部署步骤：
+一.安装mpp和rga
+1.复制mpp文件夹和rga文件夹到/home/hzhy
+2.cd /home/hzhy/mpp
+3.sudo dpkg -i librockchip-mpp1_1.5.0-1_arm64.deb librockchip-mpp-dev_1.5.0-1_arm64.deb librockchip-vpu0_1.5.0-1_arm64.deb
+4.sudo dpkg -i librockchip-mpp1-dbgsym_1.5.0-1_arm64.deb rockchip-mpp-demos_1.5.0-1_arm64.deb rockchip-mpp-demos-dbgsym_1.5.0-1_arm64.deb
+5.cd /home/hzhy/rga2
+6.sudo dpkg -i librga2_2.2.0-1_arm64.deb librga-dev_2.2.0-1_arm64.deb librga2-dbgsym_2.2.0-1_arm64.deb
+sudo apt install -y git build-essential yasm pkg-config libdrm-dev libx264-dev libx265-dev libvpx-dev libfdk-aac-dev libmp3lame-dev libopus-dev
+
+二.安装rknn
+1.复制librknnrt.so到/usr/lib/librknnrt.so
+2.chmod +x /usr/lib/librknnrt.so
+3.复制rknn_api.h到/usr/include/rknn_api.h
+
+三.安装ffmpeg-rk
+1.复制ffmpeg-rk文件夹到/opt
+2.chmod +x /opt/ffmpeg-rk/bin/ffmpeg
+3.chmod +x /opt/ffmpeg-rk/bin/ffprobe
+
+四.安装zlmediakit
+1.复制ZLMediaKit文件夹到/opt
+2.chmod +x /opt/ZLMediaKit/MediaServer
+
+五.其他安装包
+sudo apt update
+sudo apt install -y libturbojpeg libzmq5 libjemalloc2 sqlite3 python3 python3-venv python3-pip openjdk-8-jdk nginx

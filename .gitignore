@@ -1,0 +1,4 @@
+# 忽略整个二进制依赖包目录
+basic-env-install-package/
+# 忽略压缩包
+*.tar.gz

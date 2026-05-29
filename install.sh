@@ -13,6 +13,7 @@ APT_PACKAGES=(
   build-essential
   yasm
   pkg-config
+  libopencv-dev
   libdrm-dev
   libx264-dev
   libx265-dev

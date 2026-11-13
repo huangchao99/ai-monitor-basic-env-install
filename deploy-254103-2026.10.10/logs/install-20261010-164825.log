@@ -1,0 +1,473 @@
+[INFO] verifying package checksums
+README.md: OK
+VERSION: OK
+basic-env-install-package.tar.gz: OK
+build-clean-package.sh: OK
+install.sh: OK
+preflight.sh: OK
+verify.sh: OK
+[INFO] updating apt indexes
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy InRelease
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports InRelease
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed InRelease
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security InRelease
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates InRelease
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy InRelease
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports InRelease
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed InRelease
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security InRelease
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates InRelease
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy InRelease
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports InRelease
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed InRelease
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security InRelease
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates InRelease
+Err:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy InRelease
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable) Could not connect to mirrors.ustc.edu.cn:80 (202.141.160.110), connection timed out Could not connect to mirrors.ustc.edu.cn:80 (202.38.95.110), connection timed out
+Err:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports InRelease
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed InRelease
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security InRelease
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates InRelease
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Reading package lists...
+W: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/dists/jammy/InRelease  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable) Could not connect to mirrors.ustc.edu.cn:80 (202.141.160.110), connection timed out Could not connect to mirrors.ustc.edu.cn:80 (202.38.95.110), connection timed out
+W: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/dists/jammy-backports/InRelease  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+W: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/dists/jammy-proposed/InRelease  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+W: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/dists/jammy-security/InRelease  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+W: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/dists/jammy-updates/InRelease  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+[INFO] apt package already installed; skip: ca-certificates
+[INFO] apt package already installed; skip: curl
+[INFO] apt package already installed; skip: libasound2
+[INFO] apt package already installed; skip: libbsd0
+[INFO] apt package already installed; skip: libdrm2
+[INFO] apt package already installed; skip: libopencv-dev
+[INFO] apt package already installed; skip: libdrm-dev
+[INFO] apt package already installed; skip: libssl3
+[INFO] apt package already installed; skip: libstdc++6
+[INFO] apt package already installed; skip: libgcc-s1
+[INFO] apt package already installed; skip: libxcb1
+[INFO] apt package already installed; skip: libxcb-shape0
+[INFO] apt package already installed; skip: libxcb-shm0
+[INFO] apt package already installed; skip: libxcb-xfixes0
+[INFO] apt package already installed; skip: liblzma5
+[INFO] apt package already installed; skip: libzmq5
+[INFO] apt package already installed; skip: zlib1g
+[INFO] apt package already installed; skip: python3
+[INFO] validating apt dependency transaction
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libpython3.10 is already the newest version (3.10.12-1~22.04.18).
+libpython3.10 set to manually installed.
+libpython3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-minimal set to manually installed.
+libpython3.10-stdlib is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-stdlib set to manually installed.
+libsqlite3-0 is already the newest version (3.37.2-2ubuntu0.8).
+libsqlite3-0 set to manually installed.
+python3.10 is already the newest version (3.10.12-1~22.04.18).
+python3.10 set to manually installed.
+python3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+python3.10-minimal set to manually installed.
+The following additional packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common javascript-common
+  libatk-wrapper-java libatk-wrapper-java-jni libjs-jquery libjs-sphinxdoc
+  libjs-underscore libnginx-mod-http-geoip2 libnginx-mod-http-image-filter
+  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream
+  libnginx-mod-stream-geoip2 libpython3-dev libpython3.10-dev libxt-dev
+  nginx-common nginx-core openjdk-8-jdk-headless openjdk-8-jre
+  openjdk-8-jre-headless python3-dev python3-pip-whl python3-setuptools
+  python3-setuptools-whl python3-wheel python3.10-dev python3.10-venv
+Suggested packages:
+  default-jre libxt-doc fcgiwrap nginx-doc openjdk-8-demo openjdk-8-source
+  visualvm fonts-nanum fonts-ipafont-gothic fonts-ipafont-mincho
+  fonts-wqy-microhei python-setuptools-doc python3-braceexpand sqlite3-doc
+The following NEW packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common javascript-common
+  libatk-wrapper-java libatk-wrapper-java-jni libjemalloc2 libjs-jquery
+  libjs-sphinxdoc libjs-underscore libnginx-mod-http-geoip2
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2
+  libpython3-dev libpython3.10-dev libturbojpeg libxt-dev nginx nginx-common
+  nginx-core openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre
+  openjdk-8-jre-headless python3-dev python3-pip python3-pip-whl
+  python3-setuptools python3-setuptools-whl python3-venv python3-wheel
+  python3.10-dev python3.10-venv rsync sqlite3
+0 upgraded, 38 newly installed, 0 to remove and 52 not upgraded.
+Inst rsync (3.2.7-0ubuntu0.22.04.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst java-common (0.72build2 Ubuntu:22.04/jammy [all])
+Inst openjdk-8-jre-headless (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64]) []
+Inst ca-certificates-java (20190909ubuntu1.3 Ubuntu:22.04/jammy-updates [all])
+Inst fonts-dejavu-extra (2.37-2build1 Ubuntu:22.04/jammy [all])
+Inst javascript-common (11+nmu1 Ubuntu:22.04/jammy [all])
+Inst libatk-wrapper-java (0.38.0-5build1 Ubuntu:22.04/jammy [all])
+Inst libatk-wrapper-java-jni (0.38.0-5build1 Ubuntu:22.04/jammy [arm64])
+Inst libjemalloc2 (5.2.1-4ubuntu1 Ubuntu:22.04/jammy [arm64])
+Inst libjs-jquery (3.6.0+dfsg+~3.5.13-1 Ubuntu:22.04/jammy [all])
+Inst libjs-underscore (1.13.2~dfsg-2 Ubuntu:22.04/jammy [all])
+Inst libjs-sphinxdoc (4.3.2-1 Ubuntu:22.04/jammy [all])
+Inst nginx-common (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libnginx-mod-http-image-filter (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libnginx-mod-mail (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libnginx-mod-stream (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libpython3.10-dev (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst libpython3-dev (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Inst libturbojpeg (2.1.2-0ubuntu1 Ubuntu:22.04/jammy [arm64])
+Inst libxt-dev (1:1.2.1-1 Ubuntu:22.04/jammy [arm64])
+Inst nginx-core (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst nginx (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst openjdk-8-jre (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst openjdk-8-jdk-headless (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst openjdk-8-jdk (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst python3.10-dev (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst python3-dev (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Inst python3-setuptools (59.6.0-1.2ubuntu0.22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst python3-wheel (0.37.1-2ubuntu0.22.04.1 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst python3-pip (22.0.2+dfsg-1ubuntu0.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst python3-pip-whl (22.0.2+dfsg-1ubuntu0.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Inst python3.10-venv (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Inst python3-venv (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Inst sqlite3 (3.37.2-2ubuntu0.8 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf rsync (3.2.7-0ubuntu0.22.04.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf java-common (0.72build2 Ubuntu:22.04/jammy [all])
+Conf openjdk-8-jre-headless (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf ca-certificates-java (20190909ubuntu1.3 Ubuntu:22.04/jammy-updates [all])
+Conf fonts-dejavu-extra (2.37-2build1 Ubuntu:22.04/jammy [all])
+Conf javascript-common (11+nmu1 Ubuntu:22.04/jammy [all])
+Conf libatk-wrapper-java (0.38.0-5build1 Ubuntu:22.04/jammy [all])
+Conf libatk-wrapper-java-jni (0.38.0-5build1 Ubuntu:22.04/jammy [arm64])
+Conf libjemalloc2 (5.2.1-4ubuntu1 Ubuntu:22.04/jammy [arm64])
+Conf libjs-jquery (3.6.0+dfsg+~3.5.13-1 Ubuntu:22.04/jammy [all])
+Conf libjs-underscore (1.13.2~dfsg-2 Ubuntu:22.04/jammy [all])
+Conf libjs-sphinxdoc (4.3.2-1 Ubuntu:22.04/jammy [all])
+Conf nginx-common (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libnginx-mod-http-image-filter (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libnginx-mod-mail (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libnginx-mod-stream (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libpython3.10-dev (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf libpython3-dev (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Conf libturbojpeg (2.1.2-0ubuntu1 Ubuntu:22.04/jammy [arm64])
+Conf libxt-dev (1:1.2.1-1 Ubuntu:22.04/jammy [arm64])
+Conf nginx-core (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf nginx (1.18.0-6ubuntu14.21 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf openjdk-8-jre (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf openjdk-8-jdk-headless (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf openjdk-8-jdk (8u504-ga-1ubuntu1~22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf python3.10-dev (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf python3-dev (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Conf python3-setuptools (59.6.0-1.2ubuntu0.22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf python3-wheel (0.37.1-2ubuntu0.22.04.1 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf python3-pip (22.0.2+dfsg-1ubuntu0.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf python3-pip-whl (22.0.2+dfsg-1ubuntu0.7 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.3 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [all])
+Conf python3.10-venv (3.10.12-1~22.04.18 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+Conf python3-venv (3.10.6-1~22.04.1 Ubuntu:22.04/jammy-updates [arm64])
+Conf sqlite3 (3.37.2-2ubuntu0.8 Ubuntu:22.04/jammy-security, Ubuntu:22.04/jammy-updates [arm64])
+[INFO] installing missing apt dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libpython3.10 is already the newest version (3.10.12-1~22.04.18).
+libpython3.10 set to manually installed.
+libpython3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-minimal set to manually installed.
+libpython3.10-stdlib is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-stdlib set to manually installed.
+libsqlite3-0 is already the newest version (3.37.2-2ubuntu0.8).
+libsqlite3-0 set to manually installed.
+python3.10 is already the newest version (3.10.12-1~22.04.18).
+python3.10 set to manually installed.
+python3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+python3.10-minimal set to manually installed.
+The following additional packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common javascript-common
+  libatk-wrapper-java libatk-wrapper-java-jni libjs-jquery libjs-sphinxdoc
+  libjs-underscore libnginx-mod-http-geoip2 libnginx-mod-http-image-filter
+  libnginx-mod-http-xslt-filter libnginx-mod-mail libnginx-mod-stream
+  libnginx-mod-stream-geoip2 libpython3-dev libpython3.10-dev libxt-dev
+  nginx-common nginx-core openjdk-8-jdk-headless openjdk-8-jre
+  openjdk-8-jre-headless python3-dev python3-pip-whl python3-setuptools
+  python3-setuptools-whl python3-wheel python3.10-dev python3.10-venv
+Suggested packages:
+  default-jre libxt-doc fcgiwrap nginx-doc openjdk-8-demo openjdk-8-source
+  visualvm fonts-nanum fonts-ipafont-gothic fonts-ipafont-mincho
+  fonts-wqy-microhei python-setuptools-doc python3-braceexpand sqlite3-doc
+The following NEW packages will be installed:
+  ca-certificates-java fonts-dejavu-extra java-common javascript-common
+  libatk-wrapper-java libatk-wrapper-java-jni libjemalloc2 libjs-jquery
+  libjs-sphinxdoc libjs-underscore libnginx-mod-http-geoip2
+  libnginx-mod-http-image-filter libnginx-mod-http-xslt-filter
+  libnginx-mod-mail libnginx-mod-stream libnginx-mod-stream-geoip2
+  libpython3-dev libpython3.10-dev libturbojpeg libxt-dev nginx nginx-common
+  nginx-core openjdk-8-jdk openjdk-8-jdk-headless openjdk-8-jre
+  openjdk-8-jre-headless python3-dev python3-pip python3-pip-whl
+  python3-setuptools python3-setuptools-whl python3-venv python3-wheel
+  python3.10-dev python3.10-venv rsync sqlite3
+0 upgraded, 38 newly installed, 0 to remove and 52 not upgraded.
+Need to get 58.4 MB of archives.
+After this operation, 195 MB of additional disk space will be used.
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 rsync arm64 3.2.7-0ubuntu0.22.04.7
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 java-common all 0.72build2
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 ca-certificates-java all 20190909ubuntu1.3
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 fonts-dejavu-extra all 2.37-2build1
+Ign:6 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1
+Ign:7 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java all 0.38.0-5build1
+Ign:8 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java-jni arm64 0.38.0-5build1
+Ign:9 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libjemalloc2 arm64 5.2.1-4ubuntu1
+Ign:10 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1
+Ign:11 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-underscore all 1.13.2~dfsg-2
+Ign:12 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-sphinxdoc all 4.3.2-1
+Ign:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-common all 1.18.0-6ubuntu14.21
+Ign:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-image-filter arm64 1.18.0-6ubuntu14.21
+Ign:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-xslt-filter arm64 1.18.0-6ubuntu14.21
+Ign:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-mail arm64 1.18.0-6ubuntu14.21
+Ign:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream arm64 1.18.0-6ubuntu14.21
+Ign:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libpython3.10-dev arm64 3.10.12-1~22.04.18
+Ign:21 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 libpython3-dev arm64 3.10.6-1~22.04.1
+Ign:22 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libturbojpeg arm64 2.1.2-0ubuntu1
+Ign:23 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libxt-dev arm64 1:1.2.1-1
+Ign:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-core arm64 1.18.0-6ubuntu14.21
+Ign:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx arm64 1.18.0-6ubuntu14.21
+Ign:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3.10-dev arm64 3.10.12-1~22.04.18
+Ign:30 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 python3-dev arm64 3.10.6-1~22.04.1
+Ign:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3
+Ign:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-wheel all 0.37.1-2ubuntu0.22.04.1
+Ign:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip all 22.0.2+dfsg-1ubuntu0.7
+Ign:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.7
+Ign:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3
+Ign:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.18
+Ign:37 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 python3-venv arm64 3.10.6-1~22.04.1
+Ign:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 sqlite3 arm64 3.37.2-2ubuntu0.8
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 rsync arm64 3.2.7-0ubuntu0.22.04.7
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 java-common all 0.72build2
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 ca-certificates-java all 20190909ubuntu1.3
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 fonts-dejavu-extra all 2.37-2build1
+Ign:6 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1
+Ign:7 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java all 0.38.0-5build1
+Ign:8 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java-jni arm64 0.38.0-5build1
+Ign:9 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libjemalloc2 arm64 5.2.1-4ubuntu1
+Ign:10 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1
+Ign:11 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-underscore all 1.13.2~dfsg-2
+Ign:12 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-sphinxdoc all 4.3.2-1
+Ign:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-common all 1.18.0-6ubuntu14.21
+Ign:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-image-filter arm64 1.18.0-6ubuntu14.21
+Ign:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-xslt-filter arm64 1.18.0-6ubuntu14.21
+Ign:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-mail arm64 1.18.0-6ubuntu14.21
+Ign:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream arm64 1.18.0-6ubuntu14.21
+Ign:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libpython3.10-dev arm64 3.10.12-1~22.04.18
+Ign:21 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 libpython3-dev arm64 3.10.6-1~22.04.1
+Ign:22 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libturbojpeg arm64 2.1.2-0ubuntu1
+Ign:23 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libxt-dev arm64 1:1.2.1-1
+Ign:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-core arm64 1.18.0-6ubuntu14.21
+Ign:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx arm64 1.18.0-6ubuntu14.21
+Ign:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3.10-dev arm64 3.10.12-1~22.04.18
+Ign:30 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 python3-dev arm64 3.10.6-1~22.04.1
+Ign:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3
+Ign:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-wheel all 0.37.1-2ubuntu0.22.04.1
+Ign:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip all 22.0.2+dfsg-1ubuntu0.7
+Ign:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.7
+Ign:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3
+Ign:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.18
+Ign:37 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 python3-venv arm64 3.10.6-1~22.04.1
+Ign:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 sqlite3 arm64 3.37.2-2ubuntu0.8
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 rsync arm64 3.2.7-0ubuntu0.22.04.7
+Ign:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 java-common all 0.72build2
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 ca-certificates-java all 20190909ubuntu1.3
+Ign:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 fonts-dejavu-extra all 2.37-2build1
+Ign:6 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1
+Ign:7 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java all 0.38.0-5build1
+Ign:8 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java-jni arm64 0.38.0-5build1
+Ign:9 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libjemalloc2 arm64 5.2.1-4ubuntu1
+Ign:10 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1
+Ign:11 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-underscore all 1.13.2~dfsg-2
+Ign:12 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-sphinxdoc all 4.3.2-1
+Ign:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-common all 1.18.0-6ubuntu14.21
+Ign:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-image-filter arm64 1.18.0-6ubuntu14.21
+Ign:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-xslt-filter arm64 1.18.0-6ubuntu14.21
+Ign:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-mail arm64 1.18.0-6ubuntu14.21
+Ign:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream arm64 1.18.0-6ubuntu14.21
+Ign:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libpython3.10-dev arm64 3.10.12-1~22.04.18
+Ign:21 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 libpython3-dev arm64 3.10.6-1~22.04.1
+Ign:22 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libturbojpeg arm64 2.1.2-0ubuntu1
+Ign:23 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libxt-dev arm64 1:1.2.1-1
+Ign:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-core arm64 1.18.0-6ubuntu14.21
+Ign:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx arm64 1.18.0-6ubuntu14.21
+Ign:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3.10-dev arm64 3.10.12-1~22.04.18
+Ign:30 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 python3-dev arm64 3.10.6-1~22.04.1
+Ign:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3
+Ign:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-wheel all 0.37.1-2ubuntu0.22.04.1
+Ign:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip all 22.0.2+dfsg-1ubuntu0.7
+Ign:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.7
+Ign:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3
+Ign:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.18
+Ign:37 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 python3-venv arm64 3.10.6-1~22.04.1
+Ign:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 sqlite3 arm64 3.37.2-2ubuntu0.8
+Ign:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 rsync arm64 3.2.7-0ubuntu0.22.04.7
+Err:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 java-common all 0.72build2
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Err:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 rsync arm64 3.2.7-0ubuntu0.22.04.7
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable) Could not connect to mirrors.ustc.edu.cn:80 (202.141.160.110), connection timed out Could not connect to mirrors.ustc.edu.cn:80 (202.38.95.110), connection timed out
+Err:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 ca-certificates-java all 20190909ubuntu1.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 fonts-dejavu-extra all 2.37-2build1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre-headless arm64 8u504-ga-1ubuntu1~22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:6 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:7 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java all 0.38.0-5build1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:8 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libatk-wrapper-java-jni arm64 0.38.0-5build1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:9 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libjemalloc2 arm64 5.2.1-4ubuntu1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:10 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:11 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-underscore all 1.13.2~dfsg-2
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:12 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libjs-sphinxdoc all 4.3.2-1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-common all 1.18.0-6ubuntu14.21
+Ign:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-geoip2 arm64 1.18.0-6ubuntu14.21
+Ign:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-image-filter arm64 1.18.0-6ubuntu14.21
+Ign:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-xslt-filter arm64 1.18.0-6ubuntu14.21
+Err:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-common all 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-mail arm64 1.18.0-6ubuntu14.21
+Err:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-geoip2 arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream arm64 1.18.0-6ubuntu14.21
+Ign:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream-geoip2 arm64 1.18.0-6ubuntu14.21
+Err:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-image-filter arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libpython3.10-dev arm64 3.10.12-1~22.04.18
+Err:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-http-xslt-filter arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:21 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 libpython3-dev arm64 3.10.6-1~22.04.1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:22 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/universe arm64 libturbojpeg arm64 2.1.2-0ubuntu1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-mail arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:23 http://mirrors.ustc.edu.cn/ubuntu-ports jammy/main arm64 libxt-dev arm64 1:1.2.1-1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-core arm64 1.18.0-6ubuntu14.21
+Err:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx arm64 1.18.0-6ubuntu14.21
+Err:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libnginx-mod-stream-geoip2 arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre arm64 8u504-ga-1ubuntu1~22.04.3
+Err:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 libpython3.10-dev arm64 3.10.12-1~22.04.18
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk-headless arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk arm64 8u504-ga-1ubuntu1~22.04.3
+Ign:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3.10-dev arm64 3.10.12-1~22.04.18
+Err:30 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 python3-dev arm64 3.10.6-1~22.04.1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3
+Err:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx-core arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-wheel all 0.37.1-2ubuntu0.22.04.1
+Err:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 nginx arm64 1.18.0-6ubuntu14.21
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip all 22.0.2+dfsg-1ubuntu0.7
+Err:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jre arm64 8u504-ga-1ubuntu1~22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.7
+Err:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk-headless arm64 8u504-ga-1ubuntu1~22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 openjdk-8-jdk arm64 8u504-ga-1ubuntu1~22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3.10-dev arm64 3.10.12-1~22.04.18
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3
+Err:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.18
+Err:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-wheel all 0.37.1-2ubuntu0.22.04.1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:37 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 python3-venv arm64 3.10.6-1~22.04.1
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip all 22.0.2+dfsg-1ubuntu0.7
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Ign:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 sqlite3 arm64 3.37.2-2ubuntu0.8
+Err:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.7
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.3
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 python3.10-venv arm64 3.10.12-1~22.04.18
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+Err:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 sqlite3 arm64 3.37.2-2ubuntu0.8
+  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/r/rsync/rsync_3.2.7-0ubuntu0.22.04.7_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable) Could not connect to mirrors.ustc.edu.cn:80 (202.141.160.110), connection timed out Could not connect to mirrors.ustc.edu.cn:80 (202.38.95.110), connection timed out
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/j/java-common/java-common_0.72build2_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/o/openjdk-8/openjdk-8-jre-headless_8u504-ga-1ubuntu1%7e22.04.3_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/c/ca-certificates-java/ca-certificates-java_20190909ubuntu1.3_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/f/fonts-dejavu/fonts-dejavu-extra_2.37-2build1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/j/javascript-common/javascript-common_11%2bnmu1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/j/java-atk-wrapper/libatk-wrapper-java_0.38.0-5build1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/j/java-atk-wrapper/libatk-wrapper-java-jni_0.38.0-5build1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/j/jemalloc/libjemalloc2_5.2.1-4ubuntu1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/node-jquery/libjs-jquery_3.6.0%2bdfsg%2b%7e3.5.13-1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/u/underscore/libjs-underscore_1.13.2%7edfsg-2_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/s/sphinx/libjs-sphinxdoc_4.3.2-1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/nginx-common_1.18.0-6ubuntu14.21_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-http-geoip2_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-http-image-filter_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-mail_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-stream_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/libnginx-mod-stream-geoip2_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/p/python3.10/libpython3.10-dev_3.10.12-1%7e22.04.18_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/p/python3-defaults/libpython3-dev_3.10.6-1%7e22.04.1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/libj/libjpeg-turbo/libturbojpeg_2.1.2-0ubuntu1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/libx/libxt/libxt-dev_1.2.1-1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/nginx-core_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/n/nginx/nginx_1.18.0-6ubuntu14.21_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/o/openjdk-8/openjdk-8-jre_8u504-ga-1ubuntu1%7e22.04.3_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/o/openjdk-8/openjdk-8-jdk-headless_8u504-ga-1ubuntu1%7e22.04.3_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/o/openjdk-8/openjdk-8-jdk_8u504-ga-1ubuntu1%7e22.04.3_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/p/python3.10/python3.10-dev_3.10.12-1%7e22.04.18_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/p/python3-defaults/python3-dev_3.10.6-1%7e22.04.1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/s/setuptools/python3-setuptools_59.6.0-1.2ubuntu0.22.04.3_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/w/wheel/python3-wheel_0.37.1-2ubuntu0.22.04.1_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/p/python-pip/python3-pip_22.0.2%2bdfsg-1ubuntu0.7_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/p/python-pip/python3-pip-whl_22.0.2%2bdfsg-1ubuntu0.7_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/s/setuptools/python3-setuptools-whl_59.6.0-1.2ubuntu0.22.04.3_all.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/p/python3.10/python3.10-venv_3.10.12-1%7e22.04.18_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/universe/p/python3-defaults/python3-venv_3.10.6-1%7e22.04.1_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Failed to fetch http://mirrors.ustc.edu.cn/ubuntu-ports/pool/main/s/sqlite3/sqlite3_3.37.2-2ubuntu0.8_arm64.deb  Cannot initiate the connection to mirrors.ustc.edu.cn:80 (2001:da8:d800:95::110). - connect (101: Network is unreachable)
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+[ERROR] install failed: exit=100, line=201
+[ERROR] log: /home/linaro/deploy-254103-2026.10.10/logs/install-20261010-164825.log

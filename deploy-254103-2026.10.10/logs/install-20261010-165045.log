@@ -1,0 +1,108 @@
+[INFO] verifying package checksums
+README.md: OK
+VERSION: OK
+basic-env-install-package.tar.gz: OK
+build-clean-package.sh: OK
+install.sh: OK
+preflight.sh: OK
+verify.sh: OK
+[INFO] updating apt indexes
+Hit:1 http://mirrors.ustc.edu.cn/ubuntu-ports jammy InRelease
+Get:2 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports InRelease [127 kB]
+Get:3 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed InRelease [279 kB]
+Get:4 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security InRelease [129 kB]
+Get:5 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates InRelease [128 kB]
+Get:6 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports/main Sources [8828 B]
+Get:7 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports/main arm64 DEP-11 Metadata [3568 B]
+Get:8 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-backports/universe arm64 DEP-11 Metadata [12.0 kB]
+Get:9 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/universe Sources [23.7 kB]
+Get:10 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/main Sources [85.4 kB]
+Get:11 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/restricted Sources [34.7 kB]
+Get:12 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/multiverse Sources [11.6 kB]
+Get:13 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/main arm64 Packages [767 kB]
+Get:14 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/main Translation-en [134 kB]
+Get:15 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/main arm64 DEP-11 Metadata [5724 B]
+Get:16 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/multiverse arm64 Packages [23.2 kB]
+Get:17 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/multiverse Translation-en [4504 B]
+Get:18 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/restricted arm64 Packages [2420 kB]
+Get:19 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/restricted Translation-en [424 kB]
+Get:20 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/universe arm64 Packages [111 kB]
+Get:21 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/universe Translation-en [27.0 kB]
+Get:22 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-proposed/universe arm64 DEP-11 Metadata [42.8 kB]
+Get:23 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe Sources [312 kB]
+Get:24 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/restricted Sources [82.4 kB]
+Get:25 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main Sources [356 kB]
+Get:26 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/multiverse Sources [34.4 kB]
+Get:27 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 Packages [3511 kB]
+Get:28 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main Translation-en [509 kB]
+Get:29 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/main arm64 DEP-11 Metadata [74.3 kB]
+Get:30 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/multiverse arm64 Packages [61.8 kB]
+Get:31 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/multiverse Translation-en [13.7 kB]
+Get:32 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/restricted arm64 Packages [6688 kB]
+Get:33 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/restricted Translation-en [1250 kB]
+Get:34 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 Packages [1135 kB]
+Get:35 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe Translation-en [237 kB]
+Get:36 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-security/universe arm64 DEP-11 Metadata [127 kB]
+Get:37 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/restricted Sources [86.6 kB]
+Get:38 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/multiverse Sources [42.3 kB]
+Get:39 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main Sources [591 kB]
+Get:40 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe Sources [473 kB]
+Get:41 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 Packages [3764 kB]
+Get:42 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main Translation-en [576 kB]
+Get:43 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/main arm64 DEP-11 Metadata [117 kB]
+Get:44 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/multiverse arm64 Packages [66.8 kB]
+Get:45 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/multiverse Translation-en [16.6 kB]
+Get:46 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/multiverse arm64 DEP-11 Metadata [212 B]
+Get:47 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/restricted arm64 Packages [6936 kB]
+Get:48 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/restricted Translation-en [1294 kB]
+Get:49 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 Packages [1363 kB]
+Get:50 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe Translation-en [325 kB]
+Get:51 http://mirrors.ustc.edu.cn/ubuntu-ports jammy-updates/universe arm64 DEP-11 Metadata [357 kB]
+Fetched 35.2 MB in 16s (2227 kB/s)
+Reading package lists...
+W: Unable to read /home/linaro/deploy-254103-2026.10.10/apt-ipv4.conf - RealFileExists (2: No such file or directory)
+[INFO] apt package already installed; skip: ca-certificates
+[INFO] apt package already installed; skip: curl
+[INFO] apt package already installed; skip: libasound2
+[INFO] apt package already installed; skip: libbsd0
+[INFO] apt package already installed; skip: libdrm2
+[INFO] apt package already installed; skip: libopencv-dev
+[INFO] apt package already installed; skip: libdrm-dev
+[INFO] apt package already installed; skip: libssl3
+[INFO] apt package already installed; skip: libstdc++6
+[INFO] apt package already installed; skip: libgcc-s1
+[INFO] apt package already installed; skip: libxcb1
+[INFO] apt package already installed; skip: libxcb-shape0
+[INFO] apt package already installed; skip: libxcb-shm0
+[INFO] apt package already installed; skip: libxcb-xfixes0
+[INFO] apt package already installed; skip: liblzma5
+[INFO] apt package already installed; skip: libzmq5
+[INFO] apt package already installed; skip: zlib1g
+[INFO] apt package already installed; skip: python3
+[INFO] validating apt dependency transaction
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libpython3.10 is already the newest version (3.10.12-1~22.04.18).
+libpython3.10 set to manually installed.
+libpython3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-minimal set to manually installed.
+libpython3.10-stdlib is already the newest version (3.10.12-1~22.04.18).
+libpython3.10-stdlib set to manually installed.
+libsqlite3-0 is already the newest version (3.37.2-2ubuntu0.8).
+libsqlite3-0 set to manually installed.
+python3.10 is already the newest version (3.10.12-1~22.04.18).
+python3.10 set to manually installed.
+python3.10-minimal is already the newest version (3.10.12-1~22.04.18).
+python3.10-minimal set to manually installed.
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ python3-venv : Depends: python3 (= 3.10.6-1~22.04.2) but 3.10.6-1~22.04.1 is to be installed
+E: Unable to correct problems, you have held broken packages.
+[ERROR] install failed: exit=100, line=198
+[ERROR] log: /home/linaro/deploy-254103-2026.10.10/logs/install-20261010-165045.log
